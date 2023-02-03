@@ -1,0 +1,30 @@
+body{
+    /* background-color: #FCFCFC; */
+    background-color: #dcecfa;
+}
+.navbar{
+    background-color: #49AAE8;
+    margin-bottom: 4em;
+    padding-right: 30px;
+}
+.app-soon{
+    font-size: 45px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 3em;
+}
+.par-soon{
+    font-size: 22px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.about-us{
+    text-align: center;
+}
+.privacy{
+    text-align: center;
+}
