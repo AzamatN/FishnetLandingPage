@@ -5,7 +5,7 @@ body{
 .navbar{
     background-color: #49AAE8;
     margin-bottom: 4em;
-    padding-right: 30px;
+    /* padding-right: 30px; */
 }
 .app-soon{
     font-size: 45px;
@@ -14,20 +14,52 @@ body{
     align-items: center;
     margin-top: 3em;
 }
+.onetwo{
+    max-width: 100%;
+}
 .par-soon{
     font-size: 22px;
     display: flex;
     justify-content:center;
     align-items: center;
 }
-/* .responsive {
-    width: 100%;
-    max-width: 400px;
+.demo-app{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 3em;
+}
+.responsive {
+    max-width: 100%;
     height: auto;
-  } */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 3em;
+}
 .about-us{
     text-align: center;
 }
 .privacy{
     text-align: center;
+}
+@media screen and (max-width: 767px) {
+    .app-soon{
+        font-size: 22px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin-top: 3em;
+    }
+    .par-soon{
+        font-size: 15px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+}
+@media screen and (min-width: 768px) {
+    .mobile-break{
+        display:none;
+    }
 }
